@@ -45,7 +45,7 @@
         <div id="timeDisplay" style="font-size: auto; color:#2012FF;">
         </div>
         <script>
-          setInterval(() => {const now = new date();docment.getelemetBwId("timeDisplay").innerText="現在時間 : "+ now.toLocaieTimeString();},1000);
+          setInterval(() => {const now = new Date();document.getElementById("timeDisplay").innerText="現在時間 : "+ now.toLocaleTimeString();},1000);
         </script>
       </marquee>"
       <h1 class='title'>我的網站</h1>
