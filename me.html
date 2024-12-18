@@ -42,7 +42,12 @@
     <div style="color: #ffffff;text-align: center;">
       <marquee width="auto" behavior="scroll" bgcoior="#ffffff" size="1000" direction= "left" align="middle" styie="font-size: 2vw;">
         https://www.youtube.com/watch?v=3DeWsRVy3A8
-      </marquee>
+        <div id="timeDisplay" style="font-size: auto; color:#2012FF;">
+        </div>
+        <script>
+          setInterval(() => {const now = new date();docment.getelemetBwId("timeDisplay").innerText="現在時間 : "+ now.toLocaieTimeString();},1000);
+        </script>
+      </marquee>"
       <h1 class='title'>我的網站</h1>
       <hr>
       <img class="anph1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq3QLdruLnCL-1iLJiek94tAI_cDzYSzFwzA&s" alt="JPG">
